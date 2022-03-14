@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Arslen REMACI
     tagline: Developer & Data Scientist
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    #avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: arslen.r@gmail.com
@@ -56,79 +56,44 @@ education:
       university: Université Jean Monnet, Saint Etienne, France
       time: 2016 - 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Advanced algorithms
+          - Data analysis
+          - Machine learning fundamentals
+          - Semantic Web
+          - Security...
     - degree: Engineering school
       university: Télécom Saint Etienne, Saint Etienne, France
       time: 2014 - 2016
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      #details: |
     - degree: Bachelor's degree in Computer Science
       university: Université Jean Monnet, Saint Etienne, France
       time: 2011 - 2014
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      #details: |
     - degree: High school diploma
       #university: Télécom Saint Etienne, Saint Etienne, France
       time: 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      #details: |
 experiences:
     - role: Internship
       time: 04/2018 - 08/2018
       company: ATOS, Echirolles, France
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Exploiting knowledge graphs in an AI system of security cameras : Expand the database
+        with semantic networks and knowledge graphs.
+          - In a system that saves data collected from security cameras for automatic detection, is it
+          beneficial to use semantic networks and knowledge graphs to expand the database ?
     - role: Internship
       time: 03/2017 - 07/2017
-      company: Google, London
+      company: Université Jean Monnet, Saint Etienne, France
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Creating a training dataset in Python from Wikipedia summaries, leading to a publication in LREC Miyazaki 2018.
+          - Creating modules to extract data from Wikipedia summaries and knowledge bases from DBPedia and Wikidata. 
+          - Creating aligners to link entities and form usable triples in the dataset.
+          - Making statistics from the obtained triples.
+          - Correcting the errors the modules made, and refine the workflow.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #intro: >
     assignments:
       - title: Creation of an application for Android/iOS
         #link: "#hook"
