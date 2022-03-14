@@ -51,12 +51,6 @@ sidebar:
 #career-profile:
     #title: Career Profile
     #summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
     - degree: Master's degree in Computer Science, Big Data
       university: Université Jean Monnet, Saint Etienne, France
@@ -147,9 +141,6 @@ projects:
 publications:
     title: Publications
     #intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
       - title: "T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples"
         link: http://www.lrec-conf.org/proceedings/lrec2018/pdf/632.pdf
