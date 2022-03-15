@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Arslen REMACI
-    tagline: Developer & Data Scientist
+    tagline: Développeur & Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: arslen.r@gmail.com
     phone: 07-78-68-74-08
-    citizenship: French
+    citizenship: Français
     website: #do not add http://
     linkedin: arslen-remaci
     xing:
