@@ -74,7 +74,7 @@ sidebarfr:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://github.com/Arslen/online-cv/raw/master/CV_Arslen_REMACI.pdf
 
-    languages:
+    languagesfr:
       - idiom: Français
         level: Langue maternelle
 
@@ -84,7 +84,7 @@ sidebarfr:
       - idiom: Anglais
         level: Professionnel, 985 au TOEIC
 
-    interests:
+    interestsfr:
       - item: Lecture (Fantasy, science...)
         link:
 
@@ -119,26 +119,26 @@ education:
       #university: Télécom Saint Etienne, Saint Etienne, France
       time: 2011
       #details: |
-      
+
 educationfr:
     - degree: Master Données et Systèmes connectés
       university: Université Jean Monnet, Saint Etienne, France
       time: 2016 - 2018
       details: |
-          - Advanced algorithms
-          - Data analysis
-          - Machine learning fundamentals
-          - Semantic Web
-          - Security...
-    - degree: Engineering school
+          - Algorithmes avancés
+          - Analyse de données
+          - Fondamentaux de machine learning
+          - Web sémantique
+          - Sécurité...
+    - degree: Ecole d'ingénieur
       university: Télécom Saint Etienne, Saint Etienne, France
       time: 2014 - 2016
       #details: |
-    - degree: Bachelor's degree in Computer Science
+    - degree: Licence d'informatique
       university: Université Jean Monnet, Saint Etienne, France
       time: 2011 - 2014
       #details: |
-    - degree: High school diploma
+    - degree: Baccalauréat
       #university: Télécom Saint Etienne, Saint Etienne, France
       time: 2011
       #details: |
@@ -162,6 +162,24 @@ experiences:
           - Making statistics from the obtained triples.
           - Correcting the errors the modules made, and refine the workflow.
 
+experiencesfr:
+    - role: Stage
+      time: 04/2018 - 08/2018
+      company: ATOS, Echirolles, France
+      details: |
+        Exploitation de graphes de connaissance dans un système d’intelligence artificielle de vidéosurveillance : 
+        Enrichissement de la base de données avec un système de graphe de connaissances et de réseau sémantique.
+          - Dans un système qui sauvegarde des données collectées par des caméras de sécurité pour de la détection automatique,
+          est-ce utile d'utiliser des réseaux sémantiques et des graphes de connaissances pour enrichir la base de données ?
+    - role: Stage
+      time: 03/2017 - 07/2017
+      company: Université Jean Monnet, Saint Etienne, France
+      details: |
+        Création d'un dataset d'entraînement en Python à partir de résumés Wikipédia, avec coécriture d'un article publié à LREC Miyazaki 2018.
+          - Créer des modules pour extraire des données à partir des résumés Wikipédia et des bases de connaissances de DBPedia et Wikidata.
+          - Créer des aligneurs pour relier des entités et former des triplets utilisables dans le dataset.
+          - Faire des statistiques sur les triplets obtenus.
+          - Corriger les erreurs commises par les modules et affiner la pipeline de travail.
 projects:
     title: Projects
     #intro: >
@@ -174,6 +192,19 @@ projects:
         #link: "#"
         tagline: "Using the API wrapper discord.py (in Python)."
 
+projectsfr:
+    title: Projets
+    #intro: >
+    assignments:
+      - title: Création d'une application pour Android/iOS
+        #link: "#hook"
+        tagline: "Création d’un itinéraire personnalisé reliant des points d’intérêt (lieux culturels, commerces, ...) en
+        fonction du thème, de la distance et du temps souhaité."
+
+      - title: Création d'un bot personnel pour Discord
+        #link: "#"
+        tagline: "Utilisant l'API wrapper discord.py (en Python)."
+
 publications:
     title: Publications
     #intro: |
@@ -183,8 +214,17 @@ publications:
         authors: Hady Elsahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon Hare, Frederique Laforest and Elena Simperl
         conference: LREC Miyazaki, 2018
 
+publicationsfr:
+    title: Publications
+    #intro: |
+    papers:
+      - title: "T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples"
+        link: http://www.lrec-conf.org/proceedings/lrec2018/pdf/632.pdf
+        authors: Hady Elsahar, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon Hare, Frederique Laforest and Elena Simperl
+        conference: LREC Miyazaki, 2018
+
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
       - name: Python
@@ -204,6 +244,29 @@ skills:
 
       - name: LaTeX
         level: 85%
+
+skillsfr:
+    title: Compétences
+
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: C++
+        level: 60%
+
+      - name: Bash
+        level: 70%
+
+      - name: SQL
+        level: 70%
+
+      - name: PyCharm, VSCode & Emacs
+        level: 80%
+
+      - name: LaTeX
+        level: 85%
+
 
 #footer: >
     #Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
