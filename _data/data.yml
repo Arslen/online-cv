@@ -48,6 +48,52 @@ sidebar:
       #- item: Cooking
       #  link:
 
+sidebarfr:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    educationfr: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Arslen REMACI
+    tagline: Développeur & Data Scientist
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: arslen.r@gmail.com
+    phone: 07-78-68-74-08
+    citizenship: Français
+    website: #do not add http://
+    linkedin: arslen-remaci
+    xing:
+    github: Arslen
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://github.com/Arslen/online-cv/raw/master/CV_Arslen_REMACI.pdf
+
+    languages:
+      - idiom: Français
+        level: Langue maternelle
+
+      - idiom: Arabe
+        level: Langue maternelle
+
+      - idiom: Anglais
+        level: Professionnel, 985 au TOEIC
+
+    interests:
+      - item: Lecture (Fantasy, science...)
+        link:
+
+      - item: Musique (Joueur de piano amateur, classique, rock, metal)
+        link:
+
+      #- item: Cooking
+      #  link:
+
 #career-profile:
     #title: Career Profile
     #summary: |
@@ -73,6 +119,30 @@ education:
       #university: Télécom Saint Etienne, Saint Etienne, France
       time: 2011
       #details: |
+      
+educationfr:
+    - degree: Master Données et Systèmes connectés
+      university: Université Jean Monnet, Saint Etienne, France
+      time: 2016 - 2018
+      details: |
+          - Advanced algorithms
+          - Data analysis
+          - Machine learning fundamentals
+          - Semantic Web
+          - Security...
+    - degree: Engineering school
+      university: Télécom Saint Etienne, Saint Etienne, France
+      time: 2014 - 2016
+      #details: |
+    - degree: Bachelor's degree in Computer Science
+      university: Université Jean Monnet, Saint Etienne, France
+      time: 2011 - 2014
+      #details: |
+    - degree: High school diploma
+      #university: Télécom Saint Etienne, Saint Etienne, France
+      time: 2011
+      #details: |
+
 experiences:
     - role: Internship
       time: 04/2018 - 08/2018
@@ -91,6 +161,7 @@ experiences:
           - Creating aligners to link entities and form usable triples in the dataset.
           - Making statistics from the obtained triples.
           - Correcting the errors the modules made, and refine the workflow.
+
 projects:
     title: Projects
     #intro: >
